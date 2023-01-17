@@ -35,12 +35,14 @@ Index Of css
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: normal;
     font-style: normal;
     color: #727272;
@@ -146,7 +148,7 @@ h6 {
     font-weight: 600;
     margin: 0px;
     color: #101130;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 a,
@@ -1972,7 +1974,8 @@ ol {
 .navbar-nav .nav-item .sub-menu {
     padding: 30px;
     min-width: 240px;
-    background: #fff;
+    background: #101130;
+    color: white;
     -webkit-box-shadow: 0px 5px 20px #0000001a;
     box-shadow: 0px 5px 20px #0000001a;
     position: absolute;
@@ -2001,7 +2004,7 @@ ol {
 
 .navbar-nav .nav-item .sub-menu .nav-item a {
     padding: 0;
-    color: #888;
+    color: rgb(255, 255, 255);
     display: block;
     width: 100%;
     font-size: 14px;
@@ -3287,7 +3290,7 @@ ol {
 
 .about {
     position: relative;
-    background-color: #101130;
+    background-color: #ffffff;
     background-image: url("../images/about/about-bg.png");
     background-size: contain;
     background-repeat: repeat;
@@ -3446,7 +3449,7 @@ ol {
 }
 
 .about .content h4 {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -3456,7 +3459,7 @@ ol {
     font-size: 35px;
     font-weight: 700;
     line-height: 48px;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3478,13 +3481,17 @@ ol {
 .about .content p {
     font-size: 15px;
     margin-top: 25px;
-    color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+.about h3 {
+    color: rgb(0, 0, 0);
 }
 
 .about .content .date h4 {
     margin-top: 30px;
     display: inline-block;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .about .content .date h4 span {
@@ -3492,7 +3499,7 @@ ol {
     width: 45px;
     line-height: 45px;
     text-align: center;
-    color: #fff;
+    color: rgb(0, 0, 0);
     background-color: #F20487;
     border-radius: 50%;
     display: inline-block;
@@ -3625,7 +3632,7 @@ ol {
     color: #888;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .testimonials .single-testimonial .top-section .rating {
